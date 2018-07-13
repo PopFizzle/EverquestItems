@@ -75,6 +75,8 @@
             while($row = mysql_fetch_array($retval, MYSQL_ASSOC)) {
             //echo $row[1]." ".$row[2]." ".$row[3]." ".$row[4]." ".$row[5];
             // each echo is a column in the select
+            
+            // Display the query results as an echo
             echo "Name: {$row['Name']} <br>".
                  "AC: {$row['AC']} / ".
                  "Size: {$row['Size']} / ",
