@@ -16,7 +16,7 @@
         <?php
 
         // Check if a post was done and if so, then connect to the database
-        if ($_SERVER["REQUEST_METHOD"]=="POST") {
+        if ($_SERVER['REQUEST_METHOD']=="POST") {
 
             $dbhost = 'localhost:3036';
             $dbuser = 'eqweb';
@@ -25,6 +25,7 @@
 
             if(! $conn ) {
                     die('Could not connect: ' . mysql_error());
+                    echo 'error connecting to db';
             }
 
             //echo 'Connected successfully';
