@@ -34,6 +34,8 @@
            // retrieve what you submitted and output to the screen
            $retrieveitem=$_POST["ItemName"];
 
+           echo 'Looking for '.$retrieveitem;
+           
            //$sql="SELECT Name FROM items WHERE name LIKE '%".$retrieveitem."%'";
            $sql="SELECT
                     i.ID,
