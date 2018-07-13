@@ -77,6 +77,7 @@
             // each echo is a column in the select
             
             // Display the query results as an echo
+            // more comments
             echo "Name: {$row['Name']} <br>".
                  "AC: {$row['AC']} / ".
                  "Size: {$row['Size']} / ",
