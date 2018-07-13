@@ -8,7 +8,7 @@
     Search for the full name or wildcard.  Wildcard searches are going to be slow. <br><br>
     Example: The Sword of Ssraeshza or Black Acrylia Bastard Sword<br><br>
 
-        <form method="post" action="test.php">
+        <form method="post" action="eqitemsearch.php">
             Item Name: <input type="text" name="ItemName"><br>
             <input type="submit" name="submit" value="Submit">
         </form>
